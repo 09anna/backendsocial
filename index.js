@@ -26,7 +26,7 @@ app.use(express.json());
 app.use(cookieParser()); //to store token in cookies when we request data from browser to db
 app.use(urlencoded({ extended: true }));
 const corsOptions = {
-    origin: 'https://ramailokurakani.netlify.app',
+    origin: 'https://ramailokurakani.netlify.app/',
     credentials: true
 }
 app.use(cors(corsOptions));
